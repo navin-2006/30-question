@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int r;
+    float pi=3.14,l;
+    scanf("%d",&r);
+    l=2*pi*r;
+    if(l>=0)
+    {
+      printf("length of the circumference %f",l);
+    }
+    else 
+    printf("error");
+
+    return 0;
+}
