@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+    int N, total;
+    printf("Enter the number of languages: ");
+    scanf("%d", &N);
+    total=N*2;
+    printf("Total number of courses: %d\n", total);
+    
+    return 0;
+}
