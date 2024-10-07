@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int X; 
+    float A, B;
+    float totalRevenue, totalCost, profit;
+    int fixedCost = 100; 
+
+    
+    printf("Enter the number of copies sold (X): ");
+    scanf("%d", &X);
+
+    printf("Enter the selling price per copy (A): ");
+    scanf("%f", &A);
+
+    printf("Enter the cost price per copy (B): ");
+    scanf("%f", &B);
+    totalRevenue = X * A; 
+    totalCost = (X * B) + fixedCost; 
+    profit = totalRevenue - totalCost;
+    printf("The profit on Sunday is: Rs. %.2f\n", profit);
+
+    return 0;
+}
