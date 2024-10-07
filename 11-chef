@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int X, Y,Z;
+    printf("Enter the number of stoves: ");
+    scanf("%d", &X);
+    printf("Enter the number of minutes: ");
+    scanf("%d", &Y);
+    Z= X*Y;
+    printf("Chef can serve %d customers in %d minutes.\n",Z,Y);
+
+    return 0;
+}
