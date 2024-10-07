@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,dif,pro,mod,di;
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    dif=a-b;
+    pro=a*b;
+    mod=a%b;
+    di=a/b;
+    printf("%d+%d=%d\n",a,b,sum);
+    printf("%d-%d=%d\n",a,b,dif);
+    printf("%d*%d=%d\n",a,b,pro);
+    printf("%d%%%d=%d\n",a,b,mod);
+    printf("%d/%d=%d\n",a,b,di);
+}
