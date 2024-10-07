@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float originalCost, netPrice, gst, gstPercentage;
+    scanf("%f",&originalCost);
+    scanf("%f",&netPrice);
+    gst = netPrice - originalCost;
+    gstPercentage = (gst / originalCost) * 100;
+    printf("The GST percentage is: %.2f%%\n", gstPercentage);
+
+    return 0;
+}
