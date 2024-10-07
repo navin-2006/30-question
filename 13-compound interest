@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+    int p,r,t;
+    float ci;
+    scanf("%d",&p);
+    scanf("%d",&r);
+    scanf("%d",&t);
+    ci=p*pow((1+r/100),t);
+    printf("the compound interst is %f",ci);
+    
+   
+
+    return 0;
+}
