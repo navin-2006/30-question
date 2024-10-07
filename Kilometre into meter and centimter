@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+
+int km, metre, centimetre;
+
+printf("entre the kilometre:");
+
+scanf("%d",&km);
+
+metre=km*1000;
+
+centimetre=km*100000;
+
+printf("the metre is:%d", metre);
+
+printf("\nthe centimetre is:%d", centimetre);
+
+return 0;
+}
+
