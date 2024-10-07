@@ -1,0 +1,8 @@
+#include<stdio.h>
+ int main()
+ {
+     int l,b,c;
+     scanf("%d%d",&l,&b);
+     c=l*b;
+     printf("area of the rectangle is %d",c);
+ }
