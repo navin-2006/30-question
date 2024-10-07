@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main() {
+    
+        int octogonal,n;
+        printf("enthe a number:");
+        scanf("%d",&n);
+        octogonal=(3*n*n) - (2*n);
+        printf("%d\n",octogonal); 
+        
+    
+    
+    
+    
+    
+    
+    
+        return 0;
+}
